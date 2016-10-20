@@ -22,7 +22,9 @@ var itemsArray = flickerObj.items;
 for(var index = 0; index < itemsArray.length; index++){ 
 	//console.log(itemsArray[index].title,itemsArray[index].date_taken)
 }
-
+flickerObj.items.forEach(function(item.title){
+	console.log(item.title)
+});
 
 /*
 3. Create a new array called 'links'. Iterate through the items array in flickerObj and store the the links to each item in the 'links' array.
