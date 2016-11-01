@@ -11,26 +11,10 @@ Making a favorites list: DOM manipulation
 */
 
 function addToList(list, newThing) {
-  var newThingLi = document.createElement('li');
-  var newThingText = document.createTextNode(newThing);
-  newThingLi.appendChild(newThingText);
-  list.appendChild(newThingLi);
-  
+
 }
 
-window.onload = function() {	
-	var button = document.getElementBy('clickme')
-	button.onclick = function(event){
-		event.preventDefault()
-		console.log('Good Job')
-
-	
-	// grab input field data
-	var input = document.getElementBy('new item').value
-	console.log(input)
-	// create new list
-	var li = document.createElement('li')
-}
+window.onload = function() {
   // YOUR CODE HERE!
 
 };

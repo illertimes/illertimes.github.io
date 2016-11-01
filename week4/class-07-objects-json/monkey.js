@@ -3,7 +3,7 @@
 * name
 * species
 * foodsEaten
- v
+
 And the following methods:
 * eatSomething(thingAsString)
 * introduce: producers a string introducing itself, including its name, species, and what it's eaten.
@@ -14,23 +14,3 @@ Exercise your monkeys by retrieving their properties and using their methods. Pr
 for retrieving properties (dot notation and brackets).
 
 */
-var Monkey = function(name,species,foodsEaten){
-	this.name = James,
-	this.species= Chimpanzee,
-	this.foodsEaten = nuts
-}
-var James = new Monkey('James','Chimpanzee','nuts')
-
-var Monkey = function (name,species,foodsEaten){
-	this.name = Lee;
-	this.species= Ape;
-	this.foodsEaten = Meat;
-}
-var James = this.name('Lee', 'Ape', 'Meat')
-
-var Monkey = function (name,species, foodsEaten){
-	this.name = Larry;
-	this.species = Bamboons;
-	this.foodsEaten = Bananas;
-}
-var Lee = this.name('Larry', 'Bamboon', 'Bananas')

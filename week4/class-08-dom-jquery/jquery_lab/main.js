@@ -9,3 +9,8 @@ You'll add the ability to complete tasks in your favorite things list. Your prog
 - Each new item added by the user needs to also have the "complete task" link at the end.
 
 */
+$('li').append('complete task')
+$('li').on('click', '.complete', function(){
+	$('li').wrap('<strike>');
+}
+$(this).ul("text-decoration", "line-through");
