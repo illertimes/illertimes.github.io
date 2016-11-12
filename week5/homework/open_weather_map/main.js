@@ -88,6 +88,31 @@ function outputWeather (response){
 	var humidity = response.main.humidity;
 	var windSpeed = response.wind.speed;
 //change background color
+	function colorBackfround(temp){
+		if(temp > 70){
+			$('body').css('background', 'red');
+}		else{
+			$('body').css('background', 'blue');
+}
+	}
+	$('#clickme').click(function(event){
+		event.preventDefault();
+		var apiKey = 'e7ffdf9a0a85ed2ffd49437c9406745a'
+		var newCity = $('city').val();
+		var newState = $('state').val();
+		var newWeatherUrl = 'http://api.openweathermap.org/data/2.5/weather?q='+newCity+','+newState+'&units=imperial&appid=' + apiKey;
+      
+      function addToDOM(data){
+      	$('#weather-summary2').append('<p>' + 'Here are some of the weather details in' + newCity + ' ,' + newState + ':' + '<p>');
+      	$('#weather-summary2').append('<li>' + 'Temp :' + data.main.temp + 'F' + '<li>');
+      	$('#weather-summary2').append('<li>' + 'Humidty: ' + data.main.humidty + '</li>');
+      	$('#weather-summary2').append('<li>' + 'Wind speed (mph):' + data.wind.speed + '</li>');
+      }
+
+
+  /*    
+
+	})
 	colorbackground(temp);
 
 	$('weather-output')
