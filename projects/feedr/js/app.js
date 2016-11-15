@@ -73,7 +73,7 @@ function pullJson(callback){
 				var obj = {}
 				obj.title = article.preview.title.source;
 				obj.image = article.preview.images.variants.source;
-
+				useHandlebars("#title-template", "#main",obj)
 
 				// console.log(article.preview.images.source);
 				// console.log(article.preview.images.variants.source);
