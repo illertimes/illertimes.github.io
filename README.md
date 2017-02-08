@@ -1,4 +1,4 @@
-# Welcome to the JSD920 Class Repo
+Illertimes Repo
 
 ### Additional Resources:
 
