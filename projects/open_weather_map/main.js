@@ -19,17 +19,6 @@ Open Weather Map Instructions:
 
 3) Bonus:
 - Change the background color based on the temperature; ie colder temps should be blue, and hotter temps red
-
-4) Intermediate Bonus:
-- Implement handlebars.js templates :)
-
-5) Legendary Bonus:
-- Sign up for the flicker API: https://www.flickr.com/services/api/
-- Use the flicker search photo library: https://www.flickr.com/services/api/flickr.photos.search.html
-- Hint: you will have to convert the responses from the search API into images: https://www.flickr.com/services/api/misc.urls.html
-- Instead of changing the background color based on temperature, change the background to first result the flicker API returns for the city
-- Ex: user enters "Brooklyn" - search flicker API for "Brooklyn" and use the first image
-
 */
 
 
