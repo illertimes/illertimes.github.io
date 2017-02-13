@@ -69,42 +69,4 @@ $(document).ready(function(){
 		$("#output").append(compileObj)
 	}
 
-	//////////////////////////
-	// jQuery AJAX Solution //
-	//////////////////////////
-
-	// 1) Using $.get()
-	// function makeRequest () {
-	// 	var url = 'https://gbfs.citibikenyc.com/gbfs/en/station_information.json';
-
-	// 	$.get(url)
-	// 		.done(function (response) {
-	// 			console.log(response);
-	// 		})
-	// 		.fail(function (xhr) {
-	// 			console.log('An error occurred:');
-	// 			console.log(xhr);
-	// 		})
-	// }
-
-	// 2) Using $.ajax()
-	// function makeRequest () {
-	// 	var url = 'https://gbfs.citibikenyc.com/gbfs/en/station_information.json';
-
-	// 	$.ajax({
-	// 		url: url,
-	// 		type: 'GET',
-	// 		dataType:'JSON',
-	// 		// data: {bla:1},
-	// 		success: function (response) {
-	// 			//console.log(JSON.stringify(response))
-	// 			console.log(response);
-	// 		},
-	// 		error: function (xhr) {
-	// 			console.log('An error occurred:');
-	// 			console.log(xhr);
-	// 		}
-	// 	})
-	// }
-// };
-})//document.ready
+	
