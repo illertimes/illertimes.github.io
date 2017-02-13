@@ -5,9 +5,7 @@
   Goal:
   Use a closure to help you create colored sticky notes dynamically in your DOM with the click of a button. The results should look something like goal.png
 
-  Instructions:
-  Note: The CSS is all setup for you (don't edit the style.css file). You will need to work on the index.html and app.js files.
-
+Plan
   HTML
   - Create input and button elements - maybe use a form :)
   - Your inputs should capture the color of the sticky note and the sticky note's message
