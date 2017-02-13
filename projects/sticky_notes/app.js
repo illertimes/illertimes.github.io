@@ -16,7 +16,7 @@
   - Ensure your JS runs only after document is ready (note: jQuery is included)
   - Attach the proper event handler to your DOM input element(s)
   - Capture the sticky note color and message; properly store these inputs using variables
-  - Similar to the farm exercise, you will have to use jQuery to:
+  - you will have to use jQuery to:
     1) Create a new <div> element
     2) Give this new <div> a class of "box"
     3) Add text to this <div> containing:
